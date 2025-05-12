@@ -37,7 +37,24 @@ const i = smootherstep(a, b, t);
 
 <!-- api-start -->
 
-Auto-generated API content.
+<a name="module_smootherstep"></a>
+
+## smootherstep
+
+<a name="exp_module_smootherstep--smootherstep"></a>
+
+### smootherstep(a, b, v) ⇒ <code>number</code> ⏏
+
+Ken Perlin's improved version of the commonly used first-order smoothstep function.
+
+**Kind**: Exported function
+**See**: [Wikipedia – Smoothstep](https://en.wikipedia.org/wiki/Smoothstep#Variations)
+
+| Param | Type                |
+| ----- | ------------------- |
+| a     | <code>number</code> |
+| b     | <code>number</code> |
+| v     | <code>number</code> |
 
 <!-- api-end -->
 
