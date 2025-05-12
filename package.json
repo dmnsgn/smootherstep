@@ -1,0 +1,48 @@
+{
+  "name": "smootherstep",
+  "version": "1.0.0",
+  "description": "Ken Perlin's improved version of the commonly used first-order smoothstep function.",
+  "keywords": [
+    "smootherstep",
+    "smoothstep",
+    "interpolation"
+  ],
+  "homepage": "https://github.com/dmnsgn/smootherstep",
+  "bugs": "https://github.com/dmnsgn/smootherstep/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmnsgn/smootherstep.git"
+  },
+  "funding": [
+    {
+      "type": "individual",
+      "url": "https://paypal.me/dmnsgn"
+    },
+    {
+      "type": "individual",
+      "url": "https://commerce.coinbase.com/checkout/56cbdf28-e323-48d8-9c98-7019e72c97f3"
+    }
+  ],
+  "license": "MIT",
+  "author": "Damien Seguin (https://github.com/dmnsgn)",
+  "sideEffects": false,
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./types/index.d.ts",
+      "default": "./index.js"
+    }
+  },
+  "main": "index.js",
+  "types": "types/index.d.ts",
+  "engines": {
+    "node": ">=22.0.0",
+    "npm": ">=10.5.1",
+    "snowdev": ">=2.3.x"
+  },
+  "devDependencies": {
+    "canvas-context": "^3.3.0",
+    "es-module-shims": "^2.5.0",
+    "tweakpane": "^4.0.5"
+  }
+}
